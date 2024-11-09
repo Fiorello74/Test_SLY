@@ -6,9 +6,9 @@
 // @author       SLY w/ Contributions by SkyLove512, anthonyra, niofox
 // @match        https://*.labs.staratlas.com/
 // @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/anchor-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/buffer-browserified.js
-// @require      https://raw.githubusercontent.com/ImGroovin/SAGE-Lab-Assistant/main/bs58-browserified.js
+// @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/anchor-browserified.js
+// @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/buffer-browserified.js
+// @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/bs58-browserified.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=staratlas.com
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -20,7 +20,7 @@
 
     let enableAssistant = false;
     let initComplete = false;
-    let rpcEndpoints = ['https://rpc.hellomoon.io/cfd5910f-fb7d-4489-9b32-f97193eceefd','https://solana-api.syndica.io/access-token/WPoEqWQ2auQQY1zHRNGJyRBkvfOLqw58FqYucdYtmy8q9Z84MBWwqtfVf8jKhcFh/rpc'];
+    let rpcEndpoints = ['https://solana-mainnet.api.syndica.io/api-token/2HbNj1JTvVvNDTHAnbtABS8PX3F9yWW3M1Ru7UUtHKGacyiZi6MFveYzuGmDC4ZMamVAfFQhYMnJjUfVS7mE1TtqRSt9KAS5HLbAhaoHjWEaN9wHiFdYp86fJ8PerQJPtyh1127v7S3CvpBhie6QgaVWBghSiqwjanbHoK14R4mJSs2dGzQczAZHcrox2R1n2SN69XqArBXCPoCCP6wJeApsSvWhXN3x5pHr6ZbPJPyjPBVGQqT2C41r7LHKm3Pma9CUF6ZBhG2bvzt9z9SAmPfqWALWTazh4uRf68JDbBWNxEnVg1TfJ9NoP98s7GnLbjHEPMafw9Tp5ZmZDsxUg8t5iGhVjiQPmwGgXZefTuruB2fC9PPUeRV9y9HwhasQ8qrVuXBAatM8F4tM76dmjrg3ACezSpY2hEhUZrbyocnXKiuzX1YC968rBPwSiAJ61nv3HWGGG2bp3Lks1K2HeSwU2gJTdVscM875mHr2JMQ8s5vWT3ojcK1ozsYj5'];
     const priorityFee = 1; // Priority Fee added to each transaction in Lamports. Set to 0 (zero) to disable priority fees. 1 Lamport = 0.000000001 SOL
 
     const connectionProxy = {
