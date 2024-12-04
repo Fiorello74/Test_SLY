@@ -5,7 +5,7 @@
 // @description  try to take over the world!
 // @author       SLY w/ Contributions by SkyLove512, anthonyra, niofox
 // @match        https://*.labs.staratlas.com/
-// @require      https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js
+// @require      https://unpkg.com/@solana/web3.js@1.95.8/lib/index.iife.min.js
 // @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/anchor-browserified.js
 // @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/buffer-browserified.js
 // @require      https://raw.githubusercontent.com/Fiorello74/Test_SLY/main/bs58-browserified.js
